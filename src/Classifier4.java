@@ -1,5 +1,3 @@
-package team11;
-
 import java.io.File;
 import java.io.PrintStream;
 import java.util.ArrayList;
