@@ -13,12 +13,12 @@ import com.csvreader.CsvWriter;
 import me.xdrop.fuzzywuzzy.FuzzySearch;
 
 /**
- * Class Levenshtein is the abstract base class for data cleaning in 
+ * Class Levenshtein is the abstract base class for data cleaning in the
  * <i>Preprocessing and Enrichment of Student Web Search Query Catalogs</i>
  * Research Project.
  * <p>
- * Program based on Levenshtein Algorithm, calculating the distance of queries(String)
- * in order to delete duplicate string and keep the longest one.
+ * The program is based on the Levenshtein Algorithm, calculating the distance between queries(String)
+ * in order to delete duplicate strings and only keep the longest one.
  * 
  * @author Shijian(Tim) Xu
  * @version 1.0
@@ -26,10 +26,10 @@ import me.xdrop.fuzzywuzzy.FuzzySearch;
 public final class Levenshtein {
 
 	/**
-	 * Comparing query a and query b, return Distance of 2 queries.
+	 * Compares query a and query b, returns Distance between 2 queries.
 	 * <p>
 	 * The core function of calculating the distance between pair of queries,
-	 * based on Levenshtein algorithm.
+	 * based on the Levenshtein algorithm.
 	 * 
 	 * @param a
 	 *            Based query.
@@ -189,7 +189,7 @@ public final class Levenshtein {
 	
 	/**
 	 * Main processing function.
-	 * Different with handleStringArrayList, this one remain the only one longest query.
+	 * Different with handleStringArrayList, this version only keeps the single longest query.
 	 * 
 	 * @param uid
 	 *            Student id column.

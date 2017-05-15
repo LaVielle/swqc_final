@@ -41,7 +41,7 @@ public class Enrichment {
 	
 	
 /**
- * The original function of searching enriched message by using Bing api.
+ * Original enrichment function using Bing API.
  * 
  * @param conn
  * 			   Connection object of current connection to database.
@@ -127,7 +127,7 @@ public class Enrichment {
 	}
 	
 	/**
-	 * A edited way of merging enriched information from database.zz
+	 * An edited method for merging enriched information from database.zz
 	 * 
 	 */
 	public static void loadEnrichment() {

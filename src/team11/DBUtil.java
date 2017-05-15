@@ -16,7 +16,7 @@ import com.csvreader.CsvReader;
 /**
  * Database connection utility class, in order to easy connect database and close connection.
  * 
- * @author Vikas Matcha, Shijian(Tim) Xu
+ * @author Vikas Matcha, Shijian (Tim) Xu
  * @version 1.0
  */
 

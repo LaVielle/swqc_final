@@ -17,13 +17,13 @@ import java.sql.Connection;
 import java.text.SimpleDateFormat;
 
 /**
- * Forth Edition of Classifier function created by team 11.
+ * Forth Edition of Classifier function created by Team 11.
  * The main different with previous version:
  * 1.Change the source of data from randomSamplingOfQueries.txt to database, connected from DBUtil.java.
- * 2.Resolving unknown queries by checking if domain is youtube and searching time after 3pm.(mark as Non-School). 
+ * 2.Resolving unknown queries by checking if domain is Youtube and searching time after 3pm.(mark as Non-School). 
  * 3.Saving classified data to database.
  * 
- * @author Shijian(Tim) Xu, Samuel Mann, Vikas Matcha
+ * @author Shijian (Tim) Xu, Samuel Mann, Vikas Matcha
  * @version 1.0
  */
 
@@ -35,7 +35,7 @@ public class Classifier4 {
 	}	
 	
 /**
- * Additional function for output classified queries to a excel file to manual check accuracy.
+ * Additional function to output classified queries to a excel file to manually check accuracy of the classifier.
  * 
  */
 	public static void accuracyTest() {
@@ -108,7 +108,7 @@ public class Classifier4 {
 			Scanner inStopWords = new Scanner(new File("stopwords.txt"));
 			Scanner inSchoolCorpus = new Scanner(new File("corpusSchool2.txt"));
 			
-		//read out put file.
+		//read output file.
 			PrintStream outCorpusFinal = new PrintStream(new File("cleanedQueries.txt"));
 			PrintStream outClassifiedQueries = new PrintStream(new File("classified.txt"));
 			PrintStream outFailed = new PrintStream(new File("failed.txt"));

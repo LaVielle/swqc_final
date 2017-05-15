@@ -14,7 +14,7 @@ import com.csvreader.CsvReader;
  
 /**
  * Functional file to test DB connection.
- * Meanwhile, some practical function of operate the database also including in this Class.
+ * Practical functions for operating the database are also included in this Class.
  * 
  * @author Shijian(Tim) Xu
  * @version 1.0
